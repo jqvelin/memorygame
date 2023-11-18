@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primary-color: #fe4a49;
+$secondary-color: #2ab7ca;
+
+@mixin flex-centered(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
